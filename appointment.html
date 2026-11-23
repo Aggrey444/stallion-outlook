@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#12100e">
+  <meta name="description" content="Enquire or book a fitting with Stallion Outlook in Accra. Enquiries open directly in WhatsApp.">
+  <title>Book an Appointment — Stallion Outlook, Accra</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header" id="top">
+    <a class="brand" href="index.html" aria-label="Stallion Outlook — home">
+      <span class="brand-mark">SO</span>
+      <span class="brand-text"><strong>Stallion</strong><span>Outlook</span></span>
+    </a>
+
+    <nav class="nav" id="primary-nav" aria-label="Primary navigation">
+      <a href="index.html">Home</a>
+      <a href="about.html">The House</a>
+      <a href="collections.html">Collections</a>
+      <a href="craft.html">Our Craft</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="appointment.html" class="is-active" aria-current="page">Appointment</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <a class="btn btn-gold btn-sm" href="appointment.html">Book a fitting</a>
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+  <div class="nav-scrim" id="nav-scrim" aria-hidden="true"></div>
+
+  <main id="main">
+    <section class="page-hero" style="--photo: url('assets/images/post-2024-d.jpg')">
+      <div class="page-hero-inner container">
+        <p class="eyebrow eyebrow-light">Book an Appointment</p>
+        <h1>Let’s make something <em>worth remembering.</em></h1>
+        <p class="page-lede">Tell us what you have in mind and we will get back to you on WhatsApp to arrange a fitting or a chat about your design.</p>
+        <p class="page-hero-tag">Monday – Saturday · By appointment</p>
+      </div>
+    </section>
+
+    <section class="section appointment-page-section">
+      <div class="container appointment-grid">
+        <div class="appointment-copy reveal">
+          <p class="eyebrow">Start Here</p>
+          <h2 class="display">Tell us about<br><em>your order.</em></h2>
+          <p>The form takes a minute. It opens WhatsApp with your details already written out, so nothing is stored on this website and you can send it straight away.</p>
+          <div class="contact-list">
+            <div class="contact-row"><span class="ico" aria-hidden="true">↗</span><div><span class="mini-label">Prefer to message?</span><a href="https://wa.me/233248271255?text=Hello%20Stallion%20Outlook%2C%20I%27d%20like%20to%20make%20an%20enquiry." target="_blank" rel="noopener">Chat with us on WhatsApp</a></div></div>
+            <div class="contact-row"><span class="ico" aria-hidden="true">◷</span><div><span class="mini-label">Availability</span><span>Monday – Saturday, by appointment</span></div></div>
+            <div class="contact-row"><span class="ico" aria-hidden="true">◎</span><div><span class="mini-label">Location</span><span>Accra, Ghana — shared when booking</span></div></div>
+          </div>
+          <div class="appointment-aside photo reveal">
+            <img src="assets/images/post-style-b.jpg" alt="Detail of a Stallion Outlook garment" loading="lazy">
+            <span>Every detail, considered.</span>
+          </div>
+        </div>
+
+        <form class="form-card reveal delay-1" id="enquiry-form" novalidate>
+          <p class="form-kicker">Enquiry form</p>
+          <h3>Tell us about your order</h3>
+          <div class="form-grid">
+            <div class="field"><label for="f-name">Full name</label><input id="f-name" name="name" type="text" placeholder="Your name" required></div>
+            <div class="field"><label for="f-phone">Phone / WhatsApp</label><input id="f-phone" name="phone" type="tel" placeholder="+233 ..." required></div>
+            <div class="field full"><label for="f-service">What are you looking for?</label>
+              <select id="f-service" name="service" required>
+                <option value="" selected disabled>Select a service</option>
+                <option>Premium kaftan</option>
+                <option>Bespoke suit</option>
+                <option>Shirt</option>
+                <option>Shorts</option>
+                <option>Trousers</option>
+                <option>Agbada</option>
+                <option>Wedding attire</option>
+                <option>Fitting, alterations &amp; care</option>
+                <option>Something else</option>
+              </select>
+            </div>
+            <div class="field"><label for="f-date">Preferred date</label><input id="f-date" name="date" type="date"></div>
+            <div class="field"><label for="f-time">Preferred time</label><input id="f-time" name="time" type="text" placeholder="e.g. 10:00 am"></div>
+            <div class="field full"><label for="f-message">Anything else we should know?</label><textarea id="f-message" name="message" placeholder="Tell us about the occasion, fabric, colours..."></textarea></div>
+          </div>
+          <button class="btn btn-gold btn-block" type="submit">Send enquiry via WhatsApp <span aria-hidden="true">↗</span></button>
+          <p class="form-note">Submitting opens WhatsApp with your details prefilled — nothing is stored on this website.</p>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="section next-section">
+      <div class="container">
+        <div class="section-head center reveal">
+          <p class="eyebrow eyebrow-center">What Happens Next</p>
+          <h2 class="display">From message to <em>measuring tape.</em></h2>
+        </div>
+        <div class="next-grid">
+          <article class="next-card reveal"><span>01</span><h3>We reply</h3><p>We read your enquiry and get back to you on WhatsApp, usually the same day, with a few clarifying questions.</p></article>
+          <article class="next-card reveal delay-1"><span>02</span><h3>We plan</h3><p>Together we settle the garment, the cloth, the timeline and a convenient time to meet or measure.</p></article>
+          <article class="next-card reveal delay-2"><span>03</span><h3>We measure</h3><p>You come in for measurements and a proper conversation about the details that make it yours.</p></article>
+          <article class="next-card reveal"><span>04</span><h3>We make</h3><p>Pattern, cut, stitch, fitting and finish — with updates along the way.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section prepare-section">
+      <div class="container split">
+        <div class="split-copy reveal">
+          <p class="eyebrow">Before You Come</p>
+          <h2 class="display">A little preparation<br><em>goes a long way.</em></h2>
+          <p>You do not need to arrive with a finished plan. But a few things make the first conversation more useful.</p>
+          <ul class="check-list">
+            <li>A rough idea of the occasion and date</li>
+            <li>A photo of something you like, if you have one</li>
+            <li>An idea of your usual size and fit preferences</li>
+            <li>Any colours or fabrics you love — or cannot stand</li>
+            <li>Your questions, however small</li>
+          </ul>
+        </div>
+        <div class="prepare-media reveal delay-1">
+          <div class="photo"><img src="assets/images/reel-2024-mar.jpg" alt="Stallion Outlook design detail" loading="lazy"></div>
+          <div class="prepare-note"><strong>Good to know</strong><p>Appointments are one-to-one. Exact location details are shared when your fitting is confirmed.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section faq-section">
+      <div class="container faq-grid">
+        <div class="faq-intro reveal">
+          <p class="eyebrow">Before You Book</p>
+          <h2 class="display">Quick <em>answers.</em></h2>
+          <p>Anything else? Send us a message and we will reply directly.</p>
+          <a class="btn btn-outline-dark" href="contact.html">More ways to reach us <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="reveal delay-1">
+<div class="accordion">      <details class="acc-item"><summary>Is there a fee for the consultation?<span aria-hidden="true">+</span></summary><p>No. The first conversation is free — we want to understand what you need before either of us commits to anything.</p></details>
+      <details class="acc-item"><summary>Can I bring someone with me?<span aria-hidden="true">+</span></summary><p>Of course. Many clients bring a partner, friend or family member to help with fabric and design decisions.</p></details>
+      <details class="acc-item"><summary>How early should I book for a wedding?<span aria-hidden="true">+</span></summary><p>As early as you can. The earlier we start, the more time we have for cloth, fittings and any adjustments. Send us your date and we will advise.</p></details>
+      <details class="acc-item"><summary>What if I need to change my appointment?<span aria-hidden="true">+</span></summary><p>Just message us on WhatsApp. We understand that plans move and will find another time that works.</p></details></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="index.html" aria-label="Back to home">
+            <span class="brand-mark">SO</span>
+            <span class="brand-text"><strong>Stallion</strong><span>Outlook</span></span>
+          </a>
+          <p>A bespoke fashion house in Accra, Ghana. Premium kaftans, sharp suits and occasion wear — cut to measure, made with intention, worn with confidence.</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <div class="footer-links">
+            <a href="about.html">The House</a><a href="collections.html">Collections</a><a href="craft.html">Our Craft</a><a href="gallery.html">Gallery</a><a href="appointment.html">Book a fitting</a><a href="contact.html">Contact</a>
+          </div>
+        </div>
+        <div>
+          <h4>Connect</h4>
+          <div class="footer-links">
+            <a href="https://wa.me/233248271255?text=Hello%20Stallion%20Outlook%2C%20I%27d%20like%20to%20make%20an%20enquiry." target="_blank" rel="noopener">WhatsApp</a>
+            <a href="https://www.instagram.com/stallionoutlook/" target="_blank" rel="noopener">Instagram</a>
+            <a href="https://www.facebook.com/stallionoutlook/" target="_blank" rel="noopener">Facebook</a>
+            <a href="mailto:stallionoutlook@gmail.com">Email</a>
+            <a href="tel:+233248271255">Call</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year">2026</span> Stallion Outlook. All rights reserved.</span>
+        <span>Concept design for presentation purposes</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============ FLOATING WHATSAPP ============ -->
+  <a class="wa-float" href="https://wa.me/233248271255?text=Hello%20Stallion%20Outlook%2C%20I%27d%20like%20to%20make%20an%20enquiry." target="_blank" rel="noopener" aria-label="Enquire on WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"></path></svg>
+    <span>Enquire on WhatsApp</span>
+  </a>
+
+  <!-- ============ LIGHTBOX ============ -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer" aria-hidden="true">
+    <button class="lb-close" type="button" aria-label="Close image viewer">×</button>
+    <button class="lb-prev" type="button" aria-label="Previous image">‹</button>
+    <img id="lb-image" src="" alt="">
+    <button class="lb-next" type="button" aria-label="Next image">›</button>
+    <p class="lb-caption" id="lb-caption"></p>
+    <a class="lb-source" id="lb-source" href="https://www.instagram.com/stallionoutlook/" target="_blank" rel="noopener">View on Instagram ↗</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
