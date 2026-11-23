@@ -71,6 +71,18 @@ You do **not** need to run this to use the site — edit the generated `.html` f
 
 The WhatsApp number lives in `WHATSAPP_NUMBER` at the top of `script.js`, plus the static `wa.me` links generated into every page.
 
+## Git and GitHub
+
+The project is connected to `https://github.com/Aggrey444/stallion-outlook`.
+
+```bash
+git status          # check what changed
+git add -A          # stage all changes
+git commit -m "..." # committing automatically pushes to origin/main
+```
+
+The `origin` remote and upstream tracking (`main` → `origin/main`) are configured. A `.git/hooks/post-commit` hook pushes every new commit to GitHub automatically. If the push fails while offline or signed out, run `git push` manually once sign-in is restored.
+
 ## Notes
 
 - This is a static front-end concept. The enquiry form does not store data; it opens WhatsApp with the details prefilled. A real booking system can be added later.
